@@ -1,0 +1,147 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+/* top */
+
+.top {
+    background-color: #1f2937;
+    margin: 0;
+    color: white;
+    padding-bottom: 32px;
+}
+
+.top-header {
+    display: flex;
+    justify-content: space-around;
+}
+
+.right-header {
+    display: flex;
+    align-items: center;
+}
+
+a {
+    padding: 6px;
+    color: grey;
+    text-decoration: none;
+}
+
+.top-content {
+    display: flex;
+    justify-content: center;
+    padding-top: 32px;
+}
+
+.left-top-content {
+    display: flex;
+    flex-wrap: wrap;
+    width: 370px;
+}
+
+img {
+    width: 350px;
+    height: 200px;
+}
+
+/* middle */
+
+.middle {
+    padding: 32px;
+}
+
+.middle-header {
+    display: flex;
+    justify-content: center;
+}
+
+.middle-content {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.square-info {
+    text-align: center;
+    width: 180px;
+}
+
+.square-info p {
+    padding: 0px 16px 0px 19px
+}
+
+.squares {
+    background-color: #1f2937;
+    border-radius: 10px; 
+    padding: 20px;
+    width: 70px;
+    height: 70px;
+    margin: auto;
+}
+
+/* bottom middle */
+
+.bottom-middle {
+    background-color: #E5E7EB;
+    padding: 64px;
+}
+
+.bottom-quote {
+    width:700px;
+    margin: auto;
+    font-size: 36px;
+    font-style: italic;
+}
+
+.author {
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 120px;
+}
+
+/* bottom */
+
+.bottom-content {
+    background-color: #3882f6;
+    color: #f9faf8;
+    margin: 62px 120px 62px 120px;
+    border-radius: 10px;
+    padding: 18px 32px 18px 32px;
+    display: flex;
+}
+
+.left-bottom {
+    margin: auto;
+}
+
+.right-bottom {
+    margin: auto;
+}
+
+.right-bottom button {
+    background-color: transparent;
+    color:#f9faf8;
+    border-color: #f9faf8;
+    width:100px;
+    height:32px;
+    border-radius: 10px;
+    border-style: solid;
+}
+
+/* footer */
+ 
+.footer {
+    background-color: #1f2937;
+    color: #f9faf8;
+    height: 62px;
+}
+
+.copyright {
+    text-align:center;
+    vertical-align:middle;
+    line-height:64px;
+}
